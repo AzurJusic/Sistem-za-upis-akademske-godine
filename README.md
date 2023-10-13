@@ -15,3 +15,4 @@ U runners paketu pokrenuti ApplicationClient.java kako bi imali pocetne podatke 
 U GUI paketu je glavni fajl za pokretanje programa.
 Kako bi se pristupilo profilu prodekana za nastavu potrebno je u administrator GUI dodati novog profesora i oznaciti ga kao prodekana za nastavu.
 Pri kreiranju nove akademske godine za profil prodekana za nastavu, unos nove akademske godine treba biti u formatu ( 13.10.2023 16:00). 
+Student koji prvi puta upisuje prvu godinu studija je vec upisan na predmete i nema pravo da bira predmete. To moze da radi tek onda kada ne upisuje prvu godinu prvi puta. Predmete koje ne polozi automatski mu se dodaju pri upisu nove akademske godine. 
