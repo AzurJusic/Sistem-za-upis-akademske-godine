@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="sistem_za_upis_akademske_godine" transaction-type="RESOURCE_LOCAL">
+		<class>models.Administrator</class>
+		<class>models.AkademskaGodina</class>
+		<class>models.AkademskiPredmet</class>
+		<class>models.GodinaStudija</class>
+		<class>models.Nastavnik</class>
+		<class>models.Predmet</class>
+		<class>models.PredmetOcjena</class>
+		<class>models.Prodekan</class>
+		<class>models.Semestar</class>
+		<class>models.Student</class>
+		<class>models.StudijskiProgram</class>
+		<class>models.Usmjerenje</class>
+		<class>models.Zahtjev</class>
+		<class>models.ZahtjevBodovi</class>
+		<class>models.ZahtjevPreduslov</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:derby:/home/azur/eclipse-workspace-ee/DerbyFinal;create=true"/>
+			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+			<property name="javax.persistence.jdbc.user" value=""/>
+			<property name="eclipselink.jdbc.cache-statements" value="true"/>
+			<property name="javax.persistence.jdbc.password" value=""/>
+		</properties>
+	</persistence-unit>
+</persistence>
